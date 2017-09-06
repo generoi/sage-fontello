@@ -1,0 +1,29 @@
+{
+  "name": "sage-fontello",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "bin": "cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/generoi/sage-fontello.git"
+  },
+  "author": "Oskar Schöldström",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/generoi/sage-fontello/issues"
+  },
+  "homepage": "https://github.com/generoi/sage-fontello#readme",
+  "dependencies": {
+    "commander": "^2.11.0",
+    "fontello-cli": "^0.4.0",
+    "mkdirp": "^0.5.1",
+    "needle": "^2.0.0",
+    "object-hash": "^1.1.8",
+    "open": "0.0.5",
+    "unzip": "^0.1.11"
+  }
+}
