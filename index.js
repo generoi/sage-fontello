@@ -27,7 +27,7 @@ class Fontello {
 
   open(config = null) {
     if (config) {
-      this.options({config: config});
+      this.config({config: config});
     }
 
     return this.getSessionUrl((sessionUrl) => {
